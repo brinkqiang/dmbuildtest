@@ -42,6 +42,7 @@ ADD_SUBDIRECTORY(thirdparty/dmlog)
 ADD_SUBDIRECTORY(thirdparty/ctemplate)
 ADD_SUBDIRECTORY(thirdparty/dmcurl)
 ADD_SUBDIRECTORY(thirdparty/dmprotobuf/cmake)
+ADD_SUBDIRECTORY(thirdparty/dmbreakpad)
 
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/dmlog/include)
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/dmlog/src)
