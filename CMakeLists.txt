@@ -41,7 +41,7 @@ ADD_DEFINITIONS(-DUSE_DMBUILDTEST)
 ADD_SUBDIRECTORY(thirdparty/dmlog)
 ADD_SUBDIRECTORY(thirdparty/ctemplate)
 ADD_SUBDIRECTORY(thirdparty/dmcurl)
-ADD_SUBDIRECTORY(thirdparty/dmprotobuf)
+ADD_SUBDIRECTORY(thirdparty/dmprotobuf/cmake)
 
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/dmlog/include)
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/dmlog/src)
